@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Lucida Bright;
+    font-weight: bold;
+    font-style: italic;
+
+
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background: red;
+    
+}
+#header img{
+    width: 100px;
+    height: 80px;
+    float: left;
+
+}
+
+#navbar{
+width: 1000px;
+height: 80px;
+
+ 
+float: right;
+
+}
+#navbar>li{
+    width: 100px;
+    list-style: none;
+    float: right;
+}
+li>a{
+    
+    color: white;
+    line-height: 80px;
+    text-align: left;
+    font-family: lucida bright;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+
+
+
+.doctor
+{
+    height:150%;
+    width: 100%;
+    background-image: url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-repeat: repeat;
+}
+
+.form-box
+{    
+    float:middle;
+    width: 420px;
+    height: 700px;
+   /* position: relative; */
+    margin: 0% auto;
+    padding: 5px;
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    background: rgb(208, 255, 0);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+.button-box{
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow:  #ff61241f;
+    border-radius: 30px;
+} 
+.box{
+    text-align: center;
+    color: royalblue;
+
+}
+
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, red, rgb(235, 124, 124));
+    border-radius: 30px;
+    transition: .5s;
+}
+ .input-group
+ {
+     top: 120px;
+     position: absolute;
+     width: 300px;
+     transition: .5s;
+
+ }
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, red, rgb(235, 124, 124));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#subit-btn>a{
+    text-decoration: none;
+    font-family:Lucida Bright ;
+    font-weight: bold;
+    font-family: italic;
+}
+.check-box
+{
+    margin: 30px 10px 30px 0;
+
+}
+span
+{
+    color: #777;
+    font-size: 15px;
+    bottom: 79px;
+    position: absolute;
+}
+#Old-Patient
+{
+    left: 50px;
+}
+#New-Patient
+{
+    left: 450px;
+}

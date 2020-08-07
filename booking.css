@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: lucida bright;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background: red;
+    
+}
+#header img{
+    width: 100px;
+    height: 80px;
+    float: left;
+
+}
+
+#navbar{
+width: 1000px;
+height: 80px;
+
+ 
+float: right;
+
+}
+#navbar>li{
+    width: 100px;
+    list-style: none;
+    float: right;
+}
+li>a{
+    
+    color: white;
+    line-height: 80px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+.bgnd
+{
+    height:150%;
+    width: 100%;
+    background-image: url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-repeat: repeat;
+}
+
+/* .form-box
+{    
+   width: 400px;
+    height: 400px;
+   position: relative;
+    margin: 0% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+    padding: 25px;
+   
+    color: red;
+}
+ .input-group
+ {
+     top: 120px;
+     position: absolute;
+     width: 500px;
+     transition: .5s;
+
+ }
+.input-field
+{
+    width: 200px;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    
+    outline: none;
+    background: transparent;
+}
+
+
+ */
+
+
+ .submit-btn
+{
+    width: 20s;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,red, rgb(235, 124, 124));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+    
+}
+
+
+ 
+  
+  .login-box {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgb(208, 255, 0);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color:red;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color:black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color:black
+  }
+  
+
+  
+
+  
+ 
